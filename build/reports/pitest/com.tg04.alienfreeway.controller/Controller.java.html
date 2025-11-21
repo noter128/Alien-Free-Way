@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Controller.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.tg04.alienfreeway.controller;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.tg04.alienfreeway.Game;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.tg04.alienfreeway.gui.GUI;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.io.IOException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public abstract class Controller&#60;T&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final T model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Controller(T model) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.model = model;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public T getModel() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_16'>1</a>
+<span>
+1. getModel : replaced return value with null for com/tg04/alienfreeway/controller/Controller::getModel &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public abstract void render(GUI gui) throws IOException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public abstract void step(Game game, GUI.ACTION action, long time);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@f5cf29b_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f5cf29b_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f5cf29b_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getModel<br/><b>Killed by : </b>com.tg04.alienfreewaytesting.controller.ControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.ControllerTest]/[method:testGetModel()]</span></span> replaced return value with null for com/tg04/alienfreeway/controller/Controller::getModel &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.tg04.alienfreewaytesting.controller.ControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.ControllerTest]/[method:testGetModel()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.ControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.ControllerTest]/[method:testRenderCallsGui()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest]/[method:testExecuteQuitOption()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testStepDown()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testExecuteQuitOption()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testExecuteQuit()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testStepUp()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testStepSelect()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testExecuteUseExtraLife_NoLives()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testExecuteInsufficientFunds()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest]/[method:testMovePlayerUp_ValidMove()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testStepDown()] (5 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest]/[method:testStepDown()] (6 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testStepDown()] (5 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testStepUp()] (6 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.EnemyControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.EnemyControllerTest]/[method:testMoveEnemies_RemovesOffscreenEnemies()] (0 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testStepUp()] (6 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testExecuteShopOption()] (4 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest]/[method:testMoveShots_UpdatesShotPositions()] (2 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest]/[method:testStepUp()] (8 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testStepSelect()] (6 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest]/[method:testPowerUpMovement()] (2 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest]/[method:testMoveShots_RemovesShotsOutOfBounds()] (2 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testExecuteBuyPowerShot()] (6 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest]/[method:testPowerUpCollision()] (2 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testExecuteBuyExtraLife()] (7 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.ShotsControllerTest]/[method:testCheckCollisions_RemovesShotAndDamagesEnemy()] (2 ms)</li><li>com.tg04.alienfreewaytesting.states.MainMenuStateTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.states.MainMenuStateTest]/[method:testStepHandlesUpAction()] (7 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testExecuteBuyLaser()] (9 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.RoadControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.RoadControllerTest]/[method:testStepGameOverState()] (5 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest]/[method:testUpdateScore()] (7 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testExecuteResumeOption()] (13 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MidGameMenuControllerTest]/[method:testExecuteRestartOption()] (1 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.EnemyControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.EnemyControllerTest]/[method:testMoveEnemies_UpdatesPositions()] (9 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.RoadControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.RoadControllerTest]/[method:testStepMidGameMenuState()] (8 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest]/[method:testFireShots_PowerShot()] (8 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testExecuteRestart()] (7 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testStepSelect()] (21 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.GameOverMenuControllerTest]/[method:testExecuteUseExtraLife()] (22 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.ShopMenuControllerTest]/[method:testExecuteBuyMissile()] (21 ms)</li><li>com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.menu.MainMenuControllerTest]/[method:testExecutePlayOption()] (27 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.RoadControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.RoadControllerTest]/[method:testStepTriggersControllers()] (35 ms)</li><li>com.tg04.alienfreewaytesting.states.GameStateTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.states.GameStateTest]/[method:testGameStateStep()] (7 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PowerUpsControllerTest]/[method:testSlowDownEnemiesPowerUp()] (42 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest]/[method:testFireShots_SingleShot()] (50 ms)</li><li>com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest.[engine:junit-jupiter]/[class:com.tg04.alienfreewaytesting.controller.game.PlayerControllerTest]/[method:testMovePlayerUp_InvalidMove()] (76 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.0
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'info.solidsoft.pitest' version '1.15.0'
+    id 'net.ltgt.errorprone' version '4.1.0'
+}
+
+group 'com.aor.numbers'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation 'org.mockito:mockito-core:3.7.7'
+    implementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
+    errorprone 'com.google.errorprone:error_prone_core:2.30.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'com.tg04.alienfreeway.Game'
+}
+
+pitest {
+    junit5PluginVersion = '1.2.1'
+    targetClasses = ['com.tg04.alienfreeway.*']
+    excludedClasses = ['com.tg04.alienfreeway.gui.GUI', 'com.tg04.alienfreeway.model.Position', 'com.tg04.alienfreeway.model.game.elements.ShotType', 'com.tg04.alienfreeway.model.game.elements.PowerUpType', 'com.tg04.alienfreeway.sound.SoundPlayer']
+    targetTests = ['com.tg04.alienfreewaytesting.*']
+    outputFormats = ['HTML', 'XML']
+    timestampedReports = false
+}
+
