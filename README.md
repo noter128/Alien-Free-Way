@@ -1,4 +1,4 @@
-﻿# LDTS_T1204 - Alien Free-Way
+﻿#Alien Free-Way
 
 ## Game Description
 
