@@ -1,4 +1,4 @@
-# LDTS_T1204 - Alien Free-Way
+# Alien Free-Way
 
 ## Game Description
 
@@ -195,4 +195,5 @@ The work was divided in a mutual way and we all contributed with our best. It he
 - Afonso Pereira: 33.3%
 - João Brás: 33.3%
 - Rodrigo Leite: 33.3%
+
 
